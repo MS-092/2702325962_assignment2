@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olfactory Engineers</title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
     <header>
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <nav id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="profiles/profile1.html">Matthew S</a></li>
-                <li><a href="profiles/profile2.html">Steven G</a></li>
-                <li><a href="profiles/profile3.html">Ryan P</a></li>
-                <li><a href="profiles/profile4.html">Daniel L</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Profiles</a>
+                    <div class="dropdown-content">
+                        <a href="profiles/profile1.html">Matthew S</a>
+                        <a href="profiles/profile2.html">Steven G</a>
+                        <a href="profiles/profile3.html">Ryan P</a>
+                        <a href="profiles/profile4.html">Daniel L</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -59,7 +70,6 @@
         <section class="project-plan">
             <h2>Project Plan</h2>
             <img src="images/dashboard.png" alt="Project" class="timeline-image">
-
             <div class="plan-details">
                 <p>Our group project focuses on creating a full-stack help desk ticketing system for Olfactory Lab. This system will streamline customer support processes, allowing customers to submit tickets, track their status, and receive timely responses from the support team.</p>
                 <p>The help desk ticketing system will include the following features:</p>
@@ -70,7 +80,7 @@
                     <li>Reporting and analytics to track ticket resolution times and customer satisfaction</li>
                     <li>Integration with Olfactory Lab's existing systems</li>
                 </ul>
-                <p>Our goal is to enhance the customer support experience for Olfactory Lab, ensuring that customers receive prompt and efficient assistance with their inquiries and issues.</p>            
+                <p>Our goal is to enhance the customer support experience for Olfactory Lab, ensuring that customers receive prompt and efficient assistance with their inquiries and issues.</p>
             </div>
         </section>
     </main>
