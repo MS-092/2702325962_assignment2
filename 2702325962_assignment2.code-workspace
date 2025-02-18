@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "2702325962_assignment2",
+			"path": "."
+		},
+		{
+			"name": "profiles",
+			"path": "../WADS_Assignment2/2702325962_assignment2/profiles"
+		},
+		{
+			"name": "js",
+			"path": "../WADS_Assignment2/2702325962_assignment2/js"
+		},
+		{
+			"name": "images",
+			"path": "../WADS_Assignment2/2702325962_assignment2/images"
+		},
+		{
+			"name": "css",
+			"path": "../WADS_Assignment2/2702325962_assignment2/css"
+		},
+		{
+			"name": ".qodo",
+			"path": "../WADS_Assignment2/2702325962_assignment2/.qodo"
+		}
+	],
+	"settings": {}
+}
