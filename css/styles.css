@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+.profile-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 1em;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.rating .star {
+    font-size: 2em;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.rating .star.active {
+    color: gold;
+}
+
+.rating-message {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.rating-message.show {
+    opacity: 1;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.about, .project-plan {
+    margin-top: 2em;
+    text-align: left;
+}
+
+.project-intro {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.project-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 2em;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-details p {
+    margin-bottom: 1em;
+}
+
+.project-details ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+.project-details li {
+    margin-bottom: 0.5em;
+}
+
+.project-plan {
+    margin-top: 2em;
+}
+
+.timeline-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
+.plan-details {
+    margin-top: 2em;
+}
+
+.plan-details p {
+    margin-bottom: 1em;
+}
+
+.plan-details ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+.plan-details li {
+    margin-bottom: 0.5em;
+}
